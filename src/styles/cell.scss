@@ -13,7 +13,7 @@
 }
 
 .minesweeper__cell-closed {
-  background: url(./svg/cell-closed.svg) no-repeat center 90%/90%;
+  background: url(./../../public/svg/cell-closed.svg) no-repeat center 90%/90%;
   cursor: pointer;
 }
 
@@ -23,15 +23,15 @@
 }
 
 .minesweeper__cell-boom {
-  background: url(./svg/cell-boom.svg) no-repeat center;
+  background: url(./../../public/svg/cell-boom.svg) no-repeat center;
 }
 
 .minesweeper__cell-mined {
-  background: url(./svg/cell-mined.svg) no-repeat center;
+  background: url(./../../public/svg/cell-mined.svg) no-repeat center;
 }
 
 .minesweeper__cell-marked {
-  background: url(./svg/cell-marked.svg) no-repeat center;
+  background: url(./../../public/svg/cell-marked.svg) no-repeat center;
 }
 
 .minesweeper__cell-numbered_1 {
