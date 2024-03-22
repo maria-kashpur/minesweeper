@@ -1,0 +1,1 @@
+export const messageLoserTemplate = `Вы проиграли. Попробуйте еще раз.`;

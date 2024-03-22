@@ -1,0 +1,44 @@
+.popap {
+  display: none;
+
+  &.active {
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    background-color: rgba(0, 0, 0, 0.576);
+    z-index: 9999;
+  }
+}
+
+.popap__btn_close {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  font-size: 20px;
+  z-index: 3;
+  background-color: #ffffff;
+  color: #000000;
+  border: #000000 solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.popap__content {
+  flex: 1 1 100%;
+  overflow: auto;
+  background: var(--bg);
+  width: auto;
+  max-width: 80%;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
