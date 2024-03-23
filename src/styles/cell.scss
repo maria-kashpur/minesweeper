@@ -1,0 +1,67 @@
+.minesweeper__cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  width: 1em;
+  height: 1em;
+  background: #bfbfbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1em;
+  border: 1px solid #6b6969;
+}
+
+.minesweeper__cell-closed {
+  background: url(./../../public/svg/cell-closed.svg) no-repeat center 90%/90%;
+  cursor: pointer;
+}
+
+.minesweeper__cell-opened {
+  background-color: #bfbfbf;
+  pointer-events: none;
+}
+
+.minesweeper__cell-boom {
+  background: url(./../../public/svg/cell-boom.svg) no-repeat center;
+}
+
+.minesweeper__cell-mined {
+  background: url(./../../public/svg/cell-mined.svg) no-repeat center;
+}
+
+.minesweeper__cell-marked {
+  background: url(./../../public/svg/cell-marked.svg) no-repeat center;
+}
+
+.minesweeper__cell-numbered_1 {
+  color: #0b24fb;
+}
+
+.minesweeper__cell-numbered_2 {
+  color: #0e7a11;
+}
+
+.minesweeper__cell-numbered_3 {
+  color: #fc0d1b;
+}
+
+.minesweeper__cell-numbered_4 {
+  color: #020b79;
+}
+
+.minesweeper__cell-numbered_5 {
+  color: #852123;
+}
+
+.minesweeper__cell-numbered_6 {
+  color: #278786;
+}
+
+.minesweeper__cell-numbered_7 {
+  color: #000000;
+}
+
+.minesweeper__cell-numbered_8 {
+  color: #878787;
+}

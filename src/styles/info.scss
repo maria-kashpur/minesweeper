@@ -1,0 +1,28 @@
+.info {
+  font-size: 0.5em;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+
+  height: 0px;
+  visibility: hidden;
+  overflow: hidden;
+
+  transform: scale(0);
+  transition: all 0.3s linear;
+  &.active {
+    height: auto;
+    transform: scale(1);
+    visibility: visible;
+    transition: all 0.5s ease;
+  }
+  h2 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  p {
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

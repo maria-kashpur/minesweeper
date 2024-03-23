@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  background-color: transparent;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  font-family: "Marske", Open Sans, sans-serif;
+  background: var(--bg);
+  color: var(--color);
+  font-size: 30px;
+  box-sizing: border-box;
+  max-width: 100%;
+  @media(max-width:700px) {
+    font-size: 20px;
+  }
+  @media(max-width:500px) {
+    font-size: 15px;
+  }
+  min-height: 100vh;
+  &.lock {
+    overflow: hidden;
+    position: relative;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  flex: 1 1 100%;
+}
+
+.conteiner {
+  max-width: 1280px;
+  padding: 10px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}

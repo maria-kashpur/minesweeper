@@ -1,0 +1,66 @@
+.setting__color {
+  background: url(./../../public/svg/2388601_decoration_interior_lamp_light_icon.svg)
+    no-repeat center 100%/100%;
+  width: 30px;
+  height: 30px;
+}
+
+.setting__loupe_minus {
+  background: url(./../../public/svg/392511_delete_discart_exit_less_line_icon.svg) no-repeat
+    center 100%/100%;
+  width: 30px;
+  height: 30px;
+}
+
+.setting__loupe_plus {
+  background: url(./../../public/svg/392530_add_create_cross_new_plus_icon.svg) no-repeat
+    center 100%/100%;
+  width: 30px;
+  height: 30px;
+}
+
+.setting__sound {
+  background: url(./../../public/svg/speaker_on.svg) no-repeat center 100%/100%;
+
+  &.off {
+    background: url(./../../public/svg/speaker_off.svg) no-repeat center 100%/100%;
+  }
+  width: 30px;
+  height: 30px;
+}
+
+.setting__reference {
+  background: url(./../../public/svg/299086_info_sign_icon.svg) no-repeat center 100%/100%;
+  width: 30px;
+  height: 30px;
+}
+
+.setting__flag {
+  background: url(./../../public/icons/88043_flag_left_mapmarker_pink_icon.png) no-repeat
+    center 100%/100%;
+  width: 30px;
+  height: 30px;
+  &.active, &:hover {
+    border: 1px solid  rgb(103, 26, 26) !important;
+    box-shadow: 2px 2px  rgb(103, 26, 26);;
+  }
+}
+
+.status__smile {
+  width: 1.5em;
+  height: 1.5em;
+}
+.status__smile-happy {
+  background: url(./../../public/svg/2290991_boss_fun_glasses_playful_smile_icon.svg)
+    no-repeat center;
+}
+
+.status__smile-looser {
+  background: url(./../../public/svg/2291008_angry_bad_face_irritated_negative_icon.svg)
+    no-repeat center;
+}
+
+.status__smile-winner {
+  background: url(./../../public/svg/2291001_avatar_blush_blushing_face_shy_icon.svg)
+    no-repeat center;
+}

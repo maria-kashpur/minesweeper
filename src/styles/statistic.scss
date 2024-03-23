@@ -1,0 +1,37 @@
+.statistics_minesweeper {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  font-size: 1em;
+  overflow: auto;
+  .options_save {
+    align-self: center;
+  }
+}
+
+.statistics_minesweeper__title {
+  text-align: center;
+  text-shadow: 3px 3px 10px rgb(110, 110, 110);
+  font-size: 1.5em;
+}
+
+.statistics_minesweeper__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statistics_table {
+  
+  font-size: 0.7em;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.statistics_table > div {
+  border: 1px solid black;
+  padding: 8px;
+}
